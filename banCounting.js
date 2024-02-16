@@ -16,15 +16,15 @@ make use of this new function.*/
  *
  * @param {string} string
  */
-const countBs = (string) => {
+const countChar = (string, check) => {
   let counter = 0;
   for (let i = 0; string.length > i; i++) {
-    if (string[i] === "B") {
+    if (string[i] === check) {
       counter++;
     }
   }
   return counter;
 };
 
-const result = countBs("BamAnBaB");
+const result = countChar("BamAnBaB", "A");
 console.log(result);
