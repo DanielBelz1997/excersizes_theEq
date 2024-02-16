@@ -6,5 +6,3 @@ const trinagle = () => {
   }
 };
 trinagle();
-
-// sas
